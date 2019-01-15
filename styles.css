@@ -1,0 +1,36 @@
+body {
+    background-color:#650afd;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+a {
+    color : darkgrey;
+    padding: 8 px;
+}
+
+nav li {
+    display: inline;
+  }
+
+h1 {
+    text-align : center;
+    color:lightgray;
+}
+
+p {
+    color: grey;
+    font-weight: 600;
+}
+
+.row {
+    display: flex;
+    height: 300px;
+  }
+.column {
+    flex: 50%;
+  }
