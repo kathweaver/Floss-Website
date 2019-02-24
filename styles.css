@@ -8,11 +8,13 @@ ul {
     padding: 0;
   }
 
+/* Add a orange background color to the top navigation */
 .topnav  {
     background-color: orange;
     overflow: hidden;
-  }
+}
 
+/* Style the links inside the navigation bar */
 .topnav a {
   float: left;
   display: block;
@@ -22,25 +24,23 @@ ul {
   text-decoration: none;
   font-size: 17px;
 }
+
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: #ddd;
   color: black;
 }
 
-.active
-{
-  background-color:#650afd;
+/* Add an active class to highlight the current page */
+.active {
+  background-color: #650afd;
   color: white;
 }
 
-.topnav li {
-    display: inline;
-  }
-
+/* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
-    display: none;
-  }
+  display: none;
+}
 
 h1 {
     text-align : center;
