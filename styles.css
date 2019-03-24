@@ -47,7 +47,7 @@ h1 {
     color:#C3C3E5;
 }
 
-p {
+p, ul {
     color: #C3C3E5;
     font-weight: 600;
 }
