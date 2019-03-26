@@ -8,21 +8,37 @@ ul {
     padding: 0;
   }
 
+
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  height: 300px;
+}
+
+.column {
+  flex: 75%;
+}
+
 /* Add a orange background color to the top navigation */
 .topnav  {
-    background-color: orange;
-    overflow: hidden;
+  background-color: orange;
+  overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: left;
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+float: left;
+display: block;
+color: black;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
 }
 
 /* Change the color of links on hover */
@@ -51,14 +67,6 @@ p, ul {
     color: #C3C3E5;
     font-weight: 600;
 }
-
-.row {
-    display: flex;
-    height: 300px;
-  }
-.column {
-    flex: 50%;
-  }
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
