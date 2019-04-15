@@ -23,19 +23,19 @@ img {
   padding: 1em;
 }
 
-figure img {
-  display: block;
-  max-width:100%;
-  margin: auto;
-  height: auto;
-}
-
 figure {
   margin: .25em;
   padding: 0;
   float: left;
   text-align: center;
   position: relative;
+}
+
+figure img {
+  display: block;
+  max-width:100%;
+  margin: auto;
+  height: auto;
 }
 
 figcaption {
