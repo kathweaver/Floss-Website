@@ -23,6 +23,30 @@ img {
   padding: 1em;
 }
 
+figure img {
+  display: block;
+  max-width:100%;
+  margin: auto;
+  height: auto;
+}
+
+figure {
+  margin: .25em;
+  padding: 0;
+  float: left;
+  text-align: center;
+  position: relative;
+}
+
+figcaption {
+  position: absolute;
+  left:0;
+  bottom:0;
+  width: 100%;
+  text-align: center;
+  color: #C3C3E5;
+}
+
 .flex-container {
   display: flex;
   flex-direction: column;
